@@ -8,12 +8,8 @@ class Movies
     @screen_actions ||= ScreenActions.new
   end
 
-  def movie_details
-    @movie_details ||= MovieDetails.new
-  end
-
-  def best
-    @best ||= Best.new
+  def movie_details_screen
+    @movie_details_screen ||= MovieDetailsScreen.new
   end
 
 end
