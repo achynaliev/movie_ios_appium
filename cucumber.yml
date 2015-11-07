@@ -1,0 +1,3 @@
+best: --format html --out report.html --format pretty --format junit --out junit_format --tags @best
+count: --format html --out report.html --format pretty --format junit --out junit_format --tags @count
+info: --format html --out report.html --format pretty --format junit --out junit_format --tags @info
